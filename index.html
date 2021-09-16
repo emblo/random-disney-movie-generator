@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A random movie generator for classic Disney movies.">
+    <meta name="keywords" content="Disney, Walt Disney Studios, Pixar, Disney+, Disney plus, Disney classics">
+    <meta name="author" content="Emblo">
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>Random Disney Movie Generator</title>
+</head>
+<body>
+    <!--HEADER-->
+    <!--<span> to target specific word for styling-->
+    <header>
+        <h1>Random <span class="special-word">Disney</span> Movie Generator</h1>
+    </header>
+    <!--CONTAINER-->
+    <div class="container">
+        <label for="result">Your movie:</label>
+        <span id="result"></span>
+        <!--Mickey Mouse Ears button-->
+        <div class="btn">
+            <div class="ears" onclick="randomMovie()"></div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <p>
+            &copy; <a href="https://github.com/emblo">Emblo</a> <span id="year"></span>. 
+            <br />
+            Disney and all associated information belongs to &copy;<a href="https://thewaltdisneycompany.com/"> The Walt Disney Company</a>.
+        </p>
+    </footer>
+</body>
+</html>
