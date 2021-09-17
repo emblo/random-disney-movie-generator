@@ -132,3 +132,11 @@ function randomMovie() {
     const random_movie = movies[Math.floor(Math.random() * movies.length)];
     document.getElementById("result").innerHTML=random_movie;
 }
+
+//Pick random movie from array when user hits enter key or space key
+//Accessibility purpose
+document.addEventListener('keyup', (event) => {
+    if (event.key === "Enter" || event.code === "Space") {
+        randomMovie();
+    }
+  });

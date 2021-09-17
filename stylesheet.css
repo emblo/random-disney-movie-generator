@@ -62,6 +62,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    background-color: #070953;
 }
 
 /*HEADER*/
@@ -69,7 +70,7 @@ header {
     padding: 40px;
     margin-bottom: 65px;
     text-align: center;
-    color: #F1F1F1;
+    color: #FFF;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 3em;
 }
@@ -88,7 +89,7 @@ header {
     filter: drop-shadow(10px 10px 4px #070953);
 }
 
-label {
+.container h2 {
     display: block;
     margin: 0 auto;
     text-align: center;
