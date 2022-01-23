@@ -124,7 +124,9 @@ movies = [
     "Onward",
     "Soul",
     "Luca",
-    "Raya and the Last Dragon"
+    "Raya and the Last Dragon",
+    "Encanto",
+    "Ron's Gone Wrong"
 ];
 
 //Pick random movie from array when user clicks on button
